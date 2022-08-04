@@ -1,7 +1,5 @@
-import time
 import random
-
-# simple function to read a text file and print out random lines
+import time
 
 
 def print_random_lines(filename: str):
@@ -19,14 +17,14 @@ def print_random_lines(filename: str):
         Ifeanyi
     """
     count = 0
-    f = open(filename, encoding='utf8')
-    lines = f.readlines()
+    with open(filename, encoding="utf8") as f:
+        lines = f.readlines()
     for line in lines:
         count += 1
-        rand_line = random.randint(0, len(lines)-1)  # this should make it work
+        rand_line = random.randint(0, len(lines) - 1)
         print(lines[rand_line])
         time.sleep(5)
 
 
-files = 'drake_lyrics.txt'
+files = "drake_lyrics.txt"
 print_random_lines(files)
