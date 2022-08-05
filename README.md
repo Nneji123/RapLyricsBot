@@ -48,8 +48,9 @@ The bot works by reading and parsing a text file containing the lyrics. The text
 │   └── drake_lyrics.txt # lyrics file
 ├── docker-compose.yml # For Containerization with Docker
 ├── Dockerfile
-├── LICENSE # For deploying to Heroku and Railway
+├── LICENSE 
 ├── README.md
+├── Procfile # For deploying to Heroku and Railway
 ├── requirements.txt
 ├── src
 │   ├── bot.py # Tweet bot
@@ -130,7 +131,7 @@ And then the lyrics should be tweeted.
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Nneji123/DrakeLyricsBot)
 </details>
 
-## Tests :keyboard
+## Tests :keyboard:
 <details> 
   <summary><b>Test Bot</b></summary>
 
