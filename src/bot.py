@@ -61,7 +61,7 @@ def tweet_lyric(filename):
                     print('Lyric Tweet No.'+str(Ticker))
                     # Updating the ticker
                     Ticker = Ticker+1
-                    time.sleep(30)
+                    time.sleep(100)
 
 
 tweet_lyric('./data/drake_lyrics.txt')
