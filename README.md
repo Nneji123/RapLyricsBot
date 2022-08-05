@@ -1,4 +1,4 @@
-# DrakeLyricsBot
+# DrakeLyricsBot :robot:
 
 
 
@@ -21,7 +21,7 @@ Twitter: https://twitter.com/_DrakeLyricsBot
 
 
 
-## Table of Contents
+## Contents
   * [About](#about)
   * [Table of Contents](#table-of-contents)
     + [Features](#features)
@@ -67,8 +67,8 @@ The bot works by reading and parsing a text file containing the lyrics. The text
 
 To build and use the bot, you'll need to:
  
- 1. Create a new Twitter account to act as the bot
- 2. Register for a [twitter developer account](https://developer.twitter.com/en)  
+ 1. Create a new Twitter account to act as the bot.
+ 2. Register for a [twitter developer account.](https://developer.twitter.com/en)  
  3. Create a [twitter app](https://developer.twitter.com/en/portal/projects-and-apps). Make sure to give it **Read and Write** permissions.
  4. Set up a [Railway](https://railway.app/) or [Heroku Account.](https://heroku.com)
 

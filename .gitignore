@@ -129,6 +129,5 @@ dmypy.json
 .pyre/
 Dockerfile
 docker-compose.yml
-utils.py
 api.py
 credentials.py
