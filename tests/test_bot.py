@@ -1,4 +1,4 @@
-from src.bot import *
+from src.utils import create_lyric
 import os
 import sys
 
@@ -9,4 +9,4 @@ files = './data/drake_lyrics.txt'
 
 
 def test_random_lyric():
-    assert create_lyric(files) == str
+    assert create_lyric(files) == 'Tweeting a lyric...'

@@ -168,17 +168,16 @@ Click the button below to deploy the application.
 <details>
     <summary><b>Deploy the Bot to Railway<b></summary>
 Click the button below to deploy the bot to railway
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fflask)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Fnneji123%2Fdrakelyricsbot)
 
 
 </details>
 
 
 # Todo
-- [x] Add a frontend interface for the APIs with streamlit and html, css , javascript
-- [ ] Add more interesting features like; title generator and song finder, text2speech, pdf text extractor,  etc
-- [x] Add functional chatbot
-- [x] update tests
+- [ ] Add more lyrics
+- [x] Update Readme.
+- [x] Update tests
 
 
 # License

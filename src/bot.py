@@ -5,21 +5,13 @@ import time
 
 import tweepy
 
-# import credentials
-
 from os import environ
 
-
-# CONSUMER_KEY = credentials.CONSUMER_KEY
-# CONSUMER_SECRET = credentials.CONSUMER_SECRET
-# ACCESS_KEY = credentials.ACCESS_KEY
-# ACCESS_SECRET = credentials.ACCESS_KEY_SECRET
-
-# use this when you've set the keys as environment variables later
 CONSUMER_KEY = environ['CONSUMER_KEY']
 CONSUMER_SECRET = environ['CONSUMER_SECRET']
 ACCESS_KEY = environ['ACCESS_KEY']
 ACCESS_KEY_SECRET = environ['ACCESS_KEY_SECRET']
+INTERVAL = 1800  # tweets every 30 minutes
 
 
 sys.path.append(os.path.abspath(os.path.join("..", "config")))
@@ -52,7 +44,7 @@ def tweet_lyric(filename):
                 try:
                     api.update_status(tweet)
                     print('Tweeting a lyric...')
-                    time.sleep(30)
+                    time.sleep(INTERVAL)
                 # Exception handeling
                 except tweepy.errors.TweepyException as e:
 
@@ -62,6 +54,3 @@ def tweet_lyric(filename):
                     # Updating the ticker
                     Ticker = Ticker+1
                     time.sleep(100)
-
-
-tweet_lyric('./data/drake_lyrics.txt')
