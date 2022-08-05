@@ -43,24 +43,24 @@ The bot works by reading and parsing a text file containing the lyrics. The text
 
 ## Repository File Structure
 ```bash
-├───.github
-│   └───workflows #Github Actions
-├───api           #FastAPI Application
-│   ├───images
-│   ├───temp
-│   └───train_bot
-├───src           #HTML Web Application
-│   ├───images
-│   ├───temp
-│   ├───templates
-│   │   └───assets
-│   └───__pycache__
-├───streamlit     #Streamlit Application
-│   ├───functions
-│   ├───images
-│   ├───pages
-│   └───temp
-└───tests         #Tests
+├───.github # Github Workflows
+│   └───workflows
+├── app.json # For Deploying to Heroku
+├── data
+│   └── drake_lyrics.txt # lyrics file
+├── docker-compose.yml # For Containerization with Docker
+├── Dockerfile
+├── LICENSE # For deploying to Heroku and Railway
+├── README.md
+├── requirements.txt
+├── src
+│   ├── bot.py # Tweet bot
+│   ├── __init__.py
+│   ├── server.py # flask server
+├── tests # Tests folder
+    ├── __init__.py
+    └── test_bot.py
+
 ```
 
 ## Pre-requisites
