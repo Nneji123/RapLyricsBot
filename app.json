@@ -3,6 +3,6 @@
     "description": "Deploy DrakeLyricsBot to Heroku",
     "repository": "https://github.com/Nneji123/DrakeLyricsBot",
     "logo": "https://www.chemistryworld.com/news/bots-bring-chemistry-research-tools-to-twitter/4013601.article",
-    "stack": "heroku20",
+    "stack": "heroku-20",
     "keywords": ["python", "flask"]
 }
