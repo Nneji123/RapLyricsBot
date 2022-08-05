@@ -166,6 +166,7 @@ Click the button below to deploy the application.
 <details>
     <summary><b>Deploy the Bot to Railway<b></summary>
 Click the button below to deploy the bot to railway
+
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Fnneji123%2Fdrakelyricsbot)
 
 
