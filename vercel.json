@@ -1,0 +1,11 @@
+{
+	"version": 2,
+	"public": false,
+	"builds": [{ "src": "./src/app.py", "use": "@vercel/python" }],
+	"routes": [
+		{ "src": "/", "dest": "app.py" },
+		{ "src": "/docs", "dest": "app.py" },
+		{ "src": "/openapi.json", "dest": "app.py" },
+        { "src": "/bot", "dest": "app.py" }
+	]
+}

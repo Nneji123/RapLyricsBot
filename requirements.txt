@@ -1,2 +1,3 @@
 tweepy
-
+fastapi[all]
+gunicorn
