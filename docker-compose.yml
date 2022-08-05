@@ -2,7 +2,7 @@ services:
   app:
     build: .
     container_name: simple-python-server
-    command: uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+    command: python src/server.py
     ports:
       - 8500:8000
     volumes:

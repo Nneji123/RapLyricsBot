@@ -1,6 +1,0 @@
-create a new bot account
-make the function not to print empty strings
-use tweepy to tweet lyrics
-add locust and pytests to the api
-deploy the api to heroku
-add environment variables to the github and heroku apps
