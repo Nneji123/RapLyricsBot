@@ -1,8 +1,5 @@
 # DrakeLyricsBot :robot:
 
-
-
-
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![Framework](https://img.shields.io/badge/Flask-darkgreen.svg?style=flat&logo=flask&logoColor=white)](https://DrakeLyricsBot-api.herokuapp.com/docs)
 ![hosted](https://img.shields.io/badge/Railway-430098?style=flat&logo=railway&logoColor=white)
@@ -10,6 +7,8 @@
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 [![Gitpod](https://img.shields.io/badge/Gitpod-orange?style=flat&logo=gitpod&logoColor=white)](https://gitpod.io/#https://github.com/Nneji123/DrakeLyricsBot)
 ![reposize](https://img.shields.io/github/repo-size/Nneji123/drakelyricsbot.git)
+[![tests](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/test.yml/badge.svg)](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/test.yml)
+[![CodeQL](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/codeql.yml/badge.svg)](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/codeql.yml)
 
 
 
