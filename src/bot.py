@@ -11,7 +11,7 @@ CONSUMER_KEY = environ['CONSUMER_KEY']
 CONSUMER_SECRET = environ['CONSUMER_SECRET']
 ACCESS_KEY = environ['ACCESS_KEY']
 ACCESS_KEY_SECRET = environ['ACCESS_KEY_SECRET']
-INTERVAL = 1800  # tweets every 30 minutes
+INTERVAL = 600  # tweets every 10 minutes
 
 
 sys.path.append(os.path.abspath(os.path.join("..", "config")))
@@ -54,3 +54,6 @@ def tweet_lyric(filename):
                     # Updating the ticker
                     Ticker = Ticker+1
                     time.sleep(100)
+
+
+tweet_lyric('./data/drake_lyrics.txt')
