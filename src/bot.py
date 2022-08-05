@@ -5,23 +5,21 @@ import time
 
 import tweepy
 
-import credentials
+# import credentials
 
-# # from os import environ
+from os import environ
 
 
-CONSUMER_KEY = credentials.CONSUMER_KEY
-CONSUMER_SECRET = credentials.CONSUMER_SECRET
-ACCESS_KEY = credentials.ACCESS_KEY
-ACCESS_SECRET = credentials.ACCESS_KEY_SECRET
-#FORECAST_APIKEY = credentials.FORECAST_APIKEY
+# CONSUMER_KEY = credentials.CONSUMER_KEY
+# CONSUMER_SECRET = credentials.CONSUMER_SECRET
+# ACCESS_KEY = credentials.ACCESS_KEY
+# ACCESS_SECRET = credentials.ACCESS_KEY_SECRET
 
 # use this when you've set the keys as environment variables later
-# CONSUMER_KEY = environ['CONSUMER_KEY']
-# CONSUMER_SECRET = environ['CONSUMER_SECRET']
-# ACCESS_KEY = environ['ACCESS_KEY']
-# ACCESS_SECRET = environ['ACCESS_SECRET']
-# FORECAST_APIKEY = environ['FORECAST_APIKEY']
+CONSUMER_KEY = environ['CONSUMER_KEY']
+CONSUMER_SECRET = environ['CONSUMER_SECRET']
+ACCESS_KEY = environ['ACCESS_KEY']
+ACCESS_KEY_SECRET = environ['ACCESS_KEY_SECRET']
 
 
 sys.path.append(os.path.abspath(os.path.join("..", "config")))
@@ -47,7 +45,7 @@ def tweet_lyric(filename):
             if resultwords != "" and len(resultwords) > 10:
                 # this will tweet a drake lyric every 30 minutes.
                 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-                auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+                auth.set_access_token(ACCESS_KEY, ACCESS_KEY_SECRET)
                 api = tweepy.API(auth)
                 tweet = line
 
@@ -56,7 +54,7 @@ def tweet_lyric(filename):
                     print('Tweeting a lyric...')
                     time.sleep(30)
                 # Exception handeling
-                except tweepy.TweepError as e:
+                except tweepy.errors.TweepyException as e:
 
                     # Print the root cause of the error
                     print(e.reason)
