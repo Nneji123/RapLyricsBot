@@ -130,3 +130,5 @@ dmypy.json
 utils.py
 api.py
 credentials.py
+Dockerfile
+docker-compose.yml
