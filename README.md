@@ -23,18 +23,16 @@ Twitter: https://twitter.com/_DrakeLyricsBot
 
 ## Contents
   * [About](#about)
-  * [Table of Contents](#table-of-contents)
+  * [Contents](#contents)
     + [Features](#features)
   * [Repository File Structure](#repository-file-structure)
-  * [Demo](#demo)
-    + [API Demo](#api-demo)
-    + [HTML App Demo](#html-app-demo)
-    + [Streamlit App Demo](#streamlit-app-demo)
+  * [Pre-requisites](#pre-requisites)
   * [How to run the Application](#how-to-run-the-application)
   * [Tests](#tests)
   * [Deployment](#deployment)
 - [Todo](#todo)
 - [License](#license)
+
 
 ### Features
 The bot works by reading and parsing a text file containing the lyrics. The text file can be found [here.](https://github.com/Nneji123/drakelyricsbot/data/drake_lyrics.txt) The code can be found in the [src] folder.
