@@ -146,7 +146,8 @@ pip install -r requirements.txt
 ```
 3. Move to the tests folder and run the tests
 ```
-cd .. && pytest tests
+pip install pytest
+pytest tests
 ```
 </details>
 
