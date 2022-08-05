@@ -35,7 +35,7 @@ Twitter: https://twitter.com/_DrakeLyricsBot
 
 
 ## Features :star2:
-The bot works by reading and parsing a text file containing the lyrics. The text file can be found [here.](https://github.com/Nneji123/drakelyricsbot/data/drake_lyrics.txt) The code can be found in the [src] folder.
+The bot works by reading and parsing a text file containing the lyrics. The text file can be found [here.](https://github.com/Nneji123/drakelyricsbot/data/drake_lyrics.txt) The code can be found in the [src](https://github.com/Nneji123/drakelyricsbot/src) folder.
 
 
 
@@ -130,7 +130,7 @@ And then the lyrics should be tweeted.
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Nneji123/DrakeLyricsBot)
 </details>
 
-## Tests
+## Tests :keyboard
 <details> 
   <summary><b>Test Bot</b></summary>
 
