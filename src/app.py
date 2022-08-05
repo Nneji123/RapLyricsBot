@@ -4,7 +4,7 @@ import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import (FileResponse, PlainTextResponse)
-from src.bot import create_lyric, tweet_lyric
+import src.bot as bot
 
 sys.path.append(os.path.abspath(os.path.join("..", "config")))
 
@@ -42,7 +42,7 @@ async def home():
     return note
 
 
-@app.post('bot', tags=["bot"])
-def home():
-    tweet_lyric()
-    return "Tweeting weather and a quote..."
+@app.post('/bot', tags=["bot"])
+def tweet():
+    bot.create_lyric()
+    return "Tweeting a random drake lyric"
