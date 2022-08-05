@@ -1,9 +1,0 @@
-services:
-  app:
-    build: .
-    container_name: simple-python-server
-    command: python src/server.py
-    ports:
-      - 8500:8000
-    volumes:
-      - .:/app
