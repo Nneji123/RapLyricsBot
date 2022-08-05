@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD src/server.py
+CMD ./src/server.py
