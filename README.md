@@ -1,8 +1,9 @@
 # DrakeLyricsBot :robot:
 
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
-[![Framework](https://img.shields.io/badge/Flask-darkgreen.svg?style=flat&logo=flask&logoColor=white)](https://DrakeLyricsBot-api.herokuapp.com/docs)
+[![Framework](https://img.shields.io/badge/Flask-darkgreen.svg?style=flat&logo=flask&logoColor=white)](https://github.com/Nneji123/Drakelyricsbot)
 ![hosted](https://img.shields.io/badge/Railway-430098?style=flat&logo=railway&logoColor=white)
+![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
 [![Twitter](https://img.shields.io/badge/Twitter-blue.svg?style=flat&logo=twitter&logoColor=white)](https://twitter.com/_DrakeLyricsBot)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 [![Gitpod](https://img.shields.io/badge/Gitpod-orange?style=flat&logo=gitpod&logoColor=white)](https://gitpod.io/#https://github.com/Nneji123/DrakeLyricsBot)
@@ -12,7 +13,7 @@
 
 
 
-## About
+## About :speech_balloon:
 >A Twitter Bot that tweets Drake lyrics made with Python, Tweepy and Flask and deployed with RailWay.
 
 Twitter: https://twitter.com/_DrakeLyricsBot
@@ -20,7 +21,7 @@ Twitter: https://twitter.com/_DrakeLyricsBot
 
 
 
-## Contents
+## Contents :page_with_curl:
   * [About](#about)
   * [Contents](#contents)
   * [Features](#features)
@@ -33,12 +34,12 @@ Twitter: https://twitter.com/_DrakeLyricsBot
 - [License](#license)
 
 
-## Features
+## Features :star2:
 The bot works by reading and parsing a text file containing the lyrics. The text file can be found [here.](https://github.com/Nneji123/drakelyricsbot/data/drake_lyrics.txt) The code can be found in the [src] folder.
 
 
 
-## Repository File Structure
+## Repository File Structure :file_folder:
 ```bash
 ├───.github # Github Workflows
 │   └───workflows
@@ -60,7 +61,7 @@ The bot works by reading and parsing a text file containing the lyrics. The text
 
 ```
 
-## Pre-requisites
+## Pre-requisites :boom:
 
 To build and use the bot, you'll need to:
  
@@ -72,7 +73,7 @@ To build and use the bot, you'll need to:
  
 
 
-## How to run the Application
+## How to run the Application :question:
 <details>
     <summary><b>How to Run the application locally.<b></summary>
 
@@ -149,7 +150,7 @@ cd .. && pytest tests
 ```
 </details>
 
-## Deployment
+## Deployment :computer:
 
 <details> 
   <summary><b>Deploying the Bot to Heroku</b></summary>
@@ -171,13 +172,13 @@ Click the button below to deploy the bot to railway
 </details>
 
 
-# Todo
+# Todo :bookmark_tabs:
 - [ ] Add more lyrics
 - [x] Update Readme.
 - [x] Update tests
 
 
-# License
+# License :page_with_curl:
 [MIT](https://github.com/Nneji123/DrakeLyricsBot/LICENSE.md)
 
 
