@@ -7,7 +7,7 @@
 [![Twitter](https://img.shields.io/badge/Twitter-blue.svg?style=flat&logo=twitter&logoColor=white)](https://twitter.com/_DrakeLyricsBot)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 [![Gitpod](https://img.shields.io/badge/Gitpod-orange?style=flat&logo=gitpod&logoColor=white)](https://gitpod.io/#https://github.com/Nneji123/DrakeLyricsBot)
-![reposize](https://img.shields.io/github/repo-size/Nneji123/drakelyricsbot.git)
+![reposize](https://img.shields.io/github/repo-size/Nneji123/DrakeLyricsBot)
 [![tests](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/test.yml/badge.svg)](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/test.yml)
 [![CodeQL](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/codeql.yml/badge.svg)](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/codeql.yml)
 
