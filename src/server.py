@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    bot.tweet_lyric('./data/drake_lyrics.txt')
+    bot.tweet_lyric('./data/raps.txt')
     return "Tweeting a lyric"
 
 

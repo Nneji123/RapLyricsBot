@@ -1,7 +1,6 @@
 import glob
 import os
 import random
-import shutil
 import sys
 from os import environ
 
@@ -54,5 +53,5 @@ def merge_files(location: str):
                 print('Merged all files')
 
 
-download_lyrics(['My Turn', 'Harder Than Ever'], 'Lil Baby')
-merge_files("./")
+#download_lyrics(['My Turn', 'Harder Than Ever'], 'Lil Baby')
+#merge_files("./")
