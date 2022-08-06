@@ -1,4 +1,10 @@
+import glob
 import random
+import os
+import sys
+
+sys.path.append(os.path.abspath(os.path.join("..", "config")))
+
 # function for reading lines of a string
 
 
@@ -34,3 +40,11 @@ def create_lyric(filename: str):
                 return ('Tweeting a lyric...')
             else:
                 pass
+
+
+read_files = glob.glob("./kendrick_lyrics/*.txt")
+
+with open("result.txt", "wb") as outfile:
+    for f in read_files:
+        with open(f, "rb") as infile:
+            outfile.write(infile.read())

@@ -30,7 +30,7 @@ def tweet_lyric(filename):
             rand_line = random.randint(0, len(lines) - 1)
             line = lines[rand_line]
             strings = ['Verse', 'Chorus', 'Interlude', 'Produced',
-                       'Bridged', 'Intro', 'Outro']
+                       'Bridged', 'Intro', 'Outro', 'Embed', 'Lyrics']
             words = line.split()
             resultwords = [word for word in words if word.lower()
                            not in strings]
