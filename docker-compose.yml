@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: simple-python-server
+    command: python src/server.py
+    env_file:
+    - .env
+    ports:
+      - 8500:8000
+    volumes:
+      - .:/app
