@@ -45,7 +45,7 @@ The bot works by reading and parsing a text file containing the lyrics. The text
 │   └───workflows
 ├── app.json # For Deploying to Heroku
 ├── data
-│   └── drake_lyrics.txt # lyrics file
+│   └── drake_lyrics.txt # lyrics file
 ├── docker-compose.yml # For Containerization with Docker
 ├── Dockerfile
 ├── LICENSE 
@@ -53,12 +53,12 @@ The bot works by reading and parsing a text file containing the lyrics. The text
 ├── Procfile # For deploying to Heroku and Railway
 ├── requirements.txt
 ├── src
-│   ├── bot.py # Tweet bot
-│   ├── __init__.py
-│   ├── server.py # flask server
+│   ├── bot.py # Tweet bot
+│   ├── __init__.py
+│   ├── server.py # flask server
 ├── tests # Tests folder
-    ├── __init__.py
-    └── test_bot.py
+    ├── __init__.py
+    └── test_bot.py
 
 ```
 
@@ -172,14 +172,15 @@ Click the button below to deploy the application.
     <summary><b>Deploy the Bot to Railway<b></summary>
 Click the button below to deploy the bot to railway
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Fnneji123%2Fdrakelyricsbot)
-
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/k_WXDI?referralCode=ZYOf2M)
 
 </details>
 
 
 # Todo :bookmark_tabs:
 - [ ] Add more lyrics
+- [ ] Change this from a drake lyrics bot to a general rap bot
+- [ ] Get more lyrics using this library https://github.com/johnwmillr/LyricsGenius
 - [x] Update Readme.
 - [x] Update tests
 
