@@ -5,7 +5,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.join("..", "config")))
 
 
-files = './data/drake_lyrics.txt'
+files = './data/raps.txt'
 
 
 def test_random_lyric():
