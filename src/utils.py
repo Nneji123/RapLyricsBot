@@ -1,28 +1,22 @@
 import glob
-import random
 import os
+import random
+import shutil
 import sys
+from os import environ
+
+from lyricsgenius import Genius
 
 sys.path.append(os.path.abspath(os.path.join("..", "config")))
+
+
+TOKEN = environ.get("GENIUS_ACCESS_TOKEN")
+genius = Genius(TOKEN, timeout=30, retries=3)
 
 # function for reading lines of a string
 
 
 def create_lyric(filename: str):
-    """
-    This function prints a random line from the file specified by filename which is drake lyrics in this case. It also exludes lines that have specific words in a list
-
-    The function takes one argument, filename.
-
-    Args:
-        filename:str: Pass the name of the file to be opened
-
-    Returns:
-        The contents of each line in the file.
-
-    Doc Author:
-        Ifeanyi
-    """
     count = 0
     while True:
         with open(filename, encoding="utf8") as f:
@@ -37,14 +31,28 @@ def create_lyric(filename: str):
             resultwords = [word for word in words if word.lower()
                            not in strings]
             if resultwords != "" and len(resultwords) > 10:
-                return ('Tweeting a lyric...')
+                return('Printing a lyric...')
             else:
                 pass
 
 
-read_files = glob.glob("./kendrick_lyrics/*.txt")
+def download_lyrics(albums: list, artist: str):
+    for words in albums:
 
-with open("result.txt", "wb") as outfile:
-    for f in read_files:
-        with open(f, "rb") as infile:
-            outfile.write(infile.read())
+        album = genius.search_album(words, artist)
+        album.save_lyrics(words.replace(" ", "_"), 'txt')
+        print('Saved files....')
+
+
+def merge_files(location: str):
+    read_files = glob.glob(location+"*.txt")
+
+    with open("./data/result.txt", "wb") as outfile:
+        for f in read_files:
+            with open(f, "rb") as infile:
+                outfile.write(infile.read())
+                print('Merged all files')
+
+
+download_lyrics(['My Turn', 'Harder Than Ever'], 'Lil Baby')
+merge_files("./")

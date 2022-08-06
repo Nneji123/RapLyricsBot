@@ -2,10 +2,9 @@ import os
 import random
 import sys
 import time
+from os import environ
 
 import tweepy
-
-from os import environ
 
 CONSUMER_KEY = environ['CONSUMER_KEY']
 CONSUMER_SECRET = environ['CONSUMER_SECRET']
@@ -56,4 +55,4 @@ def tweet_lyric(filename):
                     time.sleep(100)
 
 
-tweet_lyric('./data/drake_lyrics.txt')
+tweet_lyric('./data/raps.txt')

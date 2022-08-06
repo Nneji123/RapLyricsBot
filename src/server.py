@@ -15,7 +15,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     bot.tweet_lyric('./data/drake_lyrics.txt')
-    return "Tweeting weather and a quote..."
+    return "Tweeting a lyric"
 
 
 app.run(host='0.0.0.0', port=environ.get('PORT'))
