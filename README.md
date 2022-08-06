@@ -114,7 +114,10 @@ git clone https://github.com/Nneji123/DrakeLyricsBot.git
 cd DrakeLyricsBot
 ```
 
-3. Run the docker compose command
+3. Edit the `.envexample` file and store your keys there.
+
+
+4. Run the docker compose command
 ```docker
 docker compose up -d --build 
 ```
