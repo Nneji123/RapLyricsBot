@@ -22,16 +22,17 @@ Twitter: https://twitter.com/__RapLyrics
 
 
 ## Contents :page_with_curl:
-  * [About](#about)
-  * [Contents](#contents)
-  * [Features](#features)
-  * [Repository File Structure](#repository-file-structure)
-  * [Pre-requisites](#pre-requisites)
-  * [How to run the Application](#how-to-run-the-application)
-  * [Tests](#tests)
-  * [Deployment](#deployment)
-- [Todo](#todo)
-- [License](#license)
+  * [About :speech_balloon:](#about--speech-balloon-)
+  * [Contents :page_with_curl:](#contents--page-with-curl-)
+  * [Features :star2:](#features--star2-)
+  * [Repository File Structure :file_folder:](#repository-file-structure--file-folder-)
+  * [Pre-requisites :boom:](#pre-requisites--boom-)
+  * [How to run the Application :question:](#how-to-run-the-application--question-)
+  * [Tests :keyboard:](#tests--keyboard-)
+  * [Deployment :computer:](#deployment--computer-)
+- [Todo :bookmark_tabs:](#todo--bookmark-tabs-)
+- [License :page_with_curl:](#license--page-with-curl-)
+
 
 
 ## Features :star2:
