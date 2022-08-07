@@ -1,22 +1,22 @@
-# DrakeLyricsBot :robot:
+# RapLyricsBot :robot:
 
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
-[![Framework](https://img.shields.io/badge/Flask-darkgreen.svg?style=flat&logo=flask&logoColor=white)](https://github.com/Nneji123/Drakelyricsbot)
+[![Framework](https://img.shields.io/badge/Flask-darkgreen.svg?style=flat&logo=flask&logoColor=white)](https://github.com/Nneji123/Raplyricsbot)
 ![hosted](https://img.shields.io/badge/Railway-430098?style=flat&logo=railway&logoColor=white)
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
-[![Twitter](https://img.shields.io/badge/Twitter-blue.svg?style=flat&logo=twitter&logoColor=white)](https://twitter.com/_DrakeLyricsBot)
+[![Twitter](https://img.shields.io/badge/Twitter-blue.svg?style=flat&logo=twitter&logoColor=white)](https://twitter.com/_RapLyricsBot)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
-[![Gitpod](https://img.shields.io/badge/Gitpod-orange?style=flat&logo=gitpod&logoColor=white)](https://gitpod.io/#https://github.com/Nneji123/DrakeLyricsBot)
-![reposize](https://img.shields.io/github/repo-size/Nneji123/DrakeLyricsBot)
-[![tests](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/test.yml/badge.svg)](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/test.yml)
-[![CodeQL](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/codeql.yml/badge.svg)](https://github.com/Nneji123/DrakeLyricsBot/actions/workflows/codeql.yml)
+[![Gitpod](https://img.shields.io/badge/Gitpod-orange?style=flat&logo=gitpod&logoColor=white)](https://gitpod.io/#https://github.com/Nneji123/RapLyricsBot)
+![reposize](https://img.shields.io/github/repo-size/Nneji123/RapLyricsBot)
+[![tests](https://github.com/Nneji123/RapLyricsBot/actions/workflows/test.yml/badge.svg)](https://github.com/Nneji123/RapLyricsBot/actions/workflows/test.yml)
+[![CodeQL](https://github.com/Nneji123/RapLyricsBot/actions/workflows/codeql.yml/badge.svg)](https://github.com/Nneji123/RapLyricsBot/actions/workflows/codeql.yml)
 
 
 
 ## About :speech_balloon:
->A Twitter Bot that tweets Drake lyrics made with Python, Tweepy and Flask and deployed with RailWay.
+>A Twitter Bot that tweets Rap lyrics made with Python, Tweepy and Flask and deployed with RailWay.
 
-Twitter: https://twitter.com/_DrakeLyricsBot
+Twitter: https://twitter.com/__RapLyrics
 
 
 
@@ -35,7 +35,7 @@ Twitter: https://twitter.com/_DrakeLyricsBot
 
 
 ## Features :star2:
-The bot works by reading and parsing a text file containing the lyrics. The text file can be found [here.](https://github.com/Nneji123/drakelyricsbot/data/drake_lyrics.txt) The code can be found in the [src](https://github.com/Nneji123/drakelyricsbot/src) folder.
+The bot works by reading and parsing a text file containing the lyrics. The text file can be found [here.](https://github.com/Nneji123/Raplyricsbot/data/Rap_lyrics.txt) The code can be found in the [src](https://github.com/Nneji123/Raplyricsbot/src) folder.
 
 
 
@@ -45,7 +45,7 @@ The bot works by reading and parsing a text file containing the lyrics. The text
 │   └───workflows
 ├── app.json # For Deploying to Heroku
 ├── data
-│   └── drake_lyrics.txt # lyrics file
+│   └── Rap_lyrics.txt # lyrics file
 ├── docker-compose.yml # For Containerization with Docker
 ├── Dockerfile
 ├── LICENSE 
@@ -106,12 +106,12 @@ CONSUMER_SECRET=<YOUR_CONSUMER_SECRET_HERE>
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Nneji123/DrakeLyricsBot.git
+git clone https://github.com/Nneji123/RapLyricsBot.git
 ```
 
 2. Change the directory:
 ```
-cd DrakeLyricsBot
+cd RapLyricsBot
 ```
 
 3. Edit the `.envexample` file and store your keys there.
@@ -131,7 +131,7 @@ And then the lyrics should be tweeted.
 
 **Click the button below to start a new development environment:**
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Nneji123/DrakeLyricsBot)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Nneji123/RapLyricsBot)
 </details>
 
 ## Tests :keyboard:
@@ -141,11 +141,11 @@ And then the lyrics should be tweeted.
 To test the API functions do the following:
 1. Clone the repository:
 ```
-git clone https://github.com/Nneji123/DrakeLyricsBot.git
+git clone https://github.com/Nneji123/RapLyricsBot.git
 ```
 2. Change the working directory and install the requirements and pytest:
 ```
-cd drakelyricsbot
+cd Raplyricsbot
 pip install -r requirements.txt
 ```
 3. Move to the tests folder and run the tests
@@ -179,14 +179,14 @@ Click the button below to deploy the bot to railway
 
 # Todo :bookmark_tabs:
 - [ ] Add more lyrics
-- [ ] Change this from a drake lyrics bot to a general rap bot
+- [ ] Change this from a Rap lyrics bot to a general rap bot
 - [ ] Get more lyrics using this library https://github.com/johnwmillr/LyricsGenius
 - [x] Update Readme.
 - [x] Update tests
 
 
 # License :page_with_curl:
-[MIT](https://github.com/Nneji123/DrakeLyricsBot/LICENSE.md)
+[MIT](https://github.com/Nneji123/RapLyricsBot/LICENSE.md)
 
 
 
