@@ -183,7 +183,7 @@ Click the button below to deploy the bot to railway
 - [x] Change this from a Rap lyrics bot to a general rap bot
 - [x] Get more lyrics using this library https://github.com/johnwmillr/LyricsGenius
 - [x] Update Readme.
-- [x] Update tests
+- [x] Update tests.
 
 
 # License :page_with_curl:
